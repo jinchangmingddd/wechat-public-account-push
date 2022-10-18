@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx1e334b73f90cf47a',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '8ae5b49e749665ee694d540c7043cdfe',
 
   PROVINCE: '山西',
   CITY: '大同',
