@@ -25,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'i9lvOWUFxyGCi3us2s5fhkhxfOG8i1sg7EDYu9W6pqM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '04-04',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -33,24 +33,19 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '靳常明', year: '1999', date: '09-28',
+          type: '*生日', name: '靳常明', year: '1999', date: '09-28',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2016', date: '05-20',
+          type: '节日', name: '相识纪念日', year: '2016', date: '05-10',
         },
         {
-          type: '节日', name: '爱上魏玮纪念日', year: '2016', date: '05-20',
-        },
-        {
-          type: '节日', name: '分手纪念日', year: '3000', date: '05-20',
+          type: '节日', name: '爱上魏玮纪念日', year: '2016', date: '05-10',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2016-12-00' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2026-05-20' },
+        { keyword: 'love_day', date: '2016-05-10' },
       ],
     },
   ],
