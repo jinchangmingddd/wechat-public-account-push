@@ -6,7 +6,7 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-
+  USE_PASSAGE: 'wechat-test',
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx1e334b73f90cf47a',
 
@@ -15,7 +15,7 @@ const USER_CONFIG = {
 
   PROVINCE: '山西',
   CITY: '大同',
-
+  earthyLoveWords: true,
   USERS: [
     {
       // 想要发送的人的名字
